@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 1.9em !important;
+    color: #565387 !important;
+} 
+
+.navbar a{
+    font-size: 1.3em;
+    text-transform: capitalize;
+}
+
+.navbar a:hover{
+    color: #3498db !important;
+}
+
+.menu_active{
+    font-weight: bold !important;
+    border-bottom: 1px solid #565387 !important;
+}
+
+@keyframes up-down {
+
+    100%{
+        transform: translateY(5%);
+        -webkit-transform: translateY(5%);
+        -moz-transform: translateY(5%);
+        -ms-transform: translateY(5%);
+        -o-transform: translateY(5%);
+}
+}
+
+.header-img img{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+/* home section styles */
+
+.align-items-center{
+    height: 90vh;
+    align-items: center;
+}
